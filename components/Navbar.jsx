@@ -6,8 +6,8 @@ import {HiMenuAlt3} from 'react-icons/hi'
 const Navbar = () => {
   return (
     <nav className='mx-auto max-w-[1440px] flex items-center justify-between px-6 lg:px-20 relative z-30 py-5'>
-      <Link href='/' className='bold-32'>
-        De rutas
+      <Link href='/' className='bold-32 text-gray-900'>
+        De<span className='text-green-700'>Rutas</span>
       </Link>
 
       <ul className="hidden h-full gap-12 lg:flex">
@@ -19,7 +19,7 @@ const Navbar = () => {
       </ul>
 
       <div className="lg:flex lg:items-center lg:justify-center hidden">
-        <Button />
+        <Button text='Descargá la app' variant='btn_dark_green' />
       </div>
 
       <HiMenuAlt3 className='inline-block cursor-pointer bold-32 lg:hidden' />
