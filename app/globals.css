@@ -10,14 +10,25 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
 }
 
 @layer utilities {
+  
+
   /* buttons */
+  
   .btn_dark_green { 
-    @apply  hover:bg-green-700 px-6 py-3 text-white transition-all bg-gray-900
+    @apply  hover:bg-green-600 px-6 py-3 text-white transition-all bg-[#3F3D56]
+  }
+
+  .btn_white_text  { 
+    @apply  bg-white px-8 py-3 text-[#3F3D56]
   }
 
   /* fonts */
@@ -57,8 +68,8 @@ body {
     @apply text-[14px] font-[600];
   }
 
-  .bold-88 {
-    @apply text-[88px] font-[700] leading-[120%];
+  .bold-74 {
+    @apply text-[74px] font-[700] leading-[120%];
   }
 
   .bold-64 {
@@ -75,6 +86,10 @@ body {
 
   .bold-32 {
     @apply text-[32px] font-[700] leading-[120%];
+  }
+
+  .bold-24 {
+    @apply text-[24px] font-[700];
   }
 
   .bold-20 {
