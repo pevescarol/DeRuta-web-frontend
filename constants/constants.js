@@ -9,23 +9,15 @@ export const NAV_LINKS = [
 // FEATURES SECTION
 export const FEATURES = [
   {
-    title: '',
-    icon: '',
-    description: '',
+    title: 'Planifica como nunca antes',
+    description: 'Crea itinerarios al aire libre con la tecnología más avanzada.',
   },
   {
-    title: '',
-    icon: '',
-    description: '',
+    title: 'Guarda tus aventuras',
+    description: 'Graba tus recorridos y compártelos con tus amigos.',
   },
   {
-    title: '',
-    icon: '',
-    description: '',
-  },
-  {
-    title: '',
-    icon: '',
-    description: '',
+    title: 'No pierdas el rumbo',
+    description: 'Navegación intuitiva guiada por voz y mapas sin conexión.',
   },
 ]

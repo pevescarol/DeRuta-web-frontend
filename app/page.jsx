@@ -1,7 +1,7 @@
 import Blog from '@/components/Blog'
+import Features from '@/components/Features'
 import Hero from '@/components/Hero'
 import Stats from '@/components/Stats'
-import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -9,6 +9,7 @@ export default function Home() {
       <Hero />
       <Blog />
       <Stats />
+      <Features />
     </main>
   )
 }
