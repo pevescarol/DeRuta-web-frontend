@@ -30,7 +30,7 @@ const Features = () => {
             alt='phone app' 
             width={550} 
             height={650} 
-            className='w-full h-full md:left-16 relative' 
+            className='w-full h-full md:left-16 md:top-[20%] relative' 
           />
         </div>
 
