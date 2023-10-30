@@ -5,7 +5,7 @@ import {HiMenuAlt3} from 'react-icons/hi'
 
 const Navbar = () => {
   return (
-    <nav className='mx-auto max-w-[1440px] flex items-center justify-between px-6 lg:px-20 relative z-30 py-5'>
+    <nav className='mx-auto max-w-[1440px] flex w-full bg-white items-center justify-between px-6 lg:px-20 fixed z-30 py-5'>
       <Link href='/' className='bold-32 text-gray-900'>
         De<span className='text-green-600'>Ruta</span>
       </Link>
