@@ -6,7 +6,7 @@ import FeatureItem from './FeatureItem'
 
 const Features = () => {
   return (
-    <section className='flex flex-col items-center justify-center overflow-hidden py-24'>
+    <section id='funciones' className='flex flex-col items-center justify-center overflow-hidden py-24'>
       <div className="flex mx-auto max-w-[1440px] px-6 lg:px-20 2xl:px-0 relative w-full items-center flex-col lg:flex-row gap-5">
         <div className='flex w-full flex-col lg:w-[50%] xl:w-[60%]'>
           <div className="relative">

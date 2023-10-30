@@ -3,7 +3,7 @@ import {BsFacebook, BsInstagram, BsYoutube, BsTwitter} from 'react-icons/bs'
 
 const Footer = () => {
   return (
-    <footer className='flex items-center justify-center mb-24'>
+    <footer id='contacto' className='flex items-center justify-center mb-24'>
       <div className='px-6 lg:px-20 2xl:px-0 flex w-full flex-col gap-14 mx-auto max-w-[1440px]'>
         <div className="flex flex-col items-start justify-center gap-[10%] md:flex-row">
           <Link href='/' className='mb-10 bold-32 text-[#3F3D56]' >

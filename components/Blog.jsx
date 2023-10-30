@@ -4,7 +4,7 @@ import {FaArrowRight} from 'react-icons/fa'
 
 const Blog = () => {
   return (
-    <section className='2xl:mx-auto 2xl:max-w-[1440px] relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20'>
+    <section id='blog' className='2xl:mx-auto 2xl:max-w-[1440px] relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20'>
       <div className='hide-scrollbar flex h-[500px] w-full items-start justify-start gap-8 overflow-x-auto xl:h-[640px]'>
         <BlogItem backgroundImage='bg-blog-item' title='Parque Nacional Ciervo de los Pantanos' text='Otamendi, Campana' />
         <BlogItem backgroundImage='bg-blog-item-2' title='Areco Camping' text='San Antonio de Areco' />

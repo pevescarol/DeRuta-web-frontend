@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <section className='w-full h-[90vh]' >
+    <section className='w-full h-[90vh] relative' >
       <Image src='/forest-bg-l.png' width={1440} height={300} alt='' className=' mx-auto w-full h-full object-cover object-center' />
       
       <div className='max-w-[1140px] m-auto'>

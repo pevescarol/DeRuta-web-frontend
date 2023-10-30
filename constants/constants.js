@@ -1,9 +1,9 @@
 // NAV
 export const NAV_LINKS = [
   {href: '/', key: 'home', label: 'Inicio'},
-  {href: '/', key: 'features', label: 'Funciones'},
-  {href: '/', key: 'blog', label: 'Blog'},
-  {href: '/', key: 'contact', label: 'Contactanos'},
+  {href: '#funciones', key: 'features', label: 'Funciones'},
+  {href: '#blog', key: 'blog', label: 'Blog'},
+  {href: '#contacto', key: 'contact', label: 'Contactanos'},
 ]
 
 // FEATURES SECTION
