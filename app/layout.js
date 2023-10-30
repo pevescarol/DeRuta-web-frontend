@@ -3,7 +3,7 @@ import './globals.css'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'De Rutas',
+  title: 'De Ruta APP',
   description: 'De Rutas app for training',
 }
 
