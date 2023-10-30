@@ -6,12 +6,12 @@ import Image from 'next/image'
 const Hero = () => {
   return (
     <section className='w-full h-[90vh]' >
-      <Image src='/forest-bg-l.png' width={1440} height={300} alt='' className=' mx-auto w-full h-full object-cover' />
+      <Image src='/forest-bg-l.png' width={1440} height={300} alt='' className=' mx-auto w-full h-full object-cover object-center' />
       
       <div className='max-w-[1140px] m-auto'>
         <div className='absolute top-[30%] w-full md:-[50%] max-w-[600px] h-full flex flex-col p-4'>
-          <h1 className='text-[#3F3D56] bold-74'>Tu Aventura, Nuestra Ruta</h1>
-          <p className="regular-16 mt-6 text-gray-500">
+          <h1 className='text-[#3F3D56] bold-40 md:bold-52 lg:bold-74'>Tu Aventura,<br /> Nuestra Ruta</h1>
+          <p className="regular-16 mt-6 text-gray-600 xl:max-w-[520px]">
             Descubre rutas épicas, obtén estadísticas detalladas, y conecta con una comunidad 
             apasionada por el ciclismo. <br /> ¡Tu aventura comienza aquí!
           </p>
