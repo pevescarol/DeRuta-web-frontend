@@ -22,6 +22,9 @@ body {
   
 
   /* buttons */
+  .btn_green { 
+    @apply  bg-green-600 px-6 py-3 text-white transition-all hover:bg-[#3F3D56]
+  }
   
   .btn_dark_green { 
     @apply  hover:bg-green-600 px-6 py-3 text-white transition-all bg-[#3F3D56]
@@ -29,6 +32,9 @@ body {
 
   .btn_white_text  { 
     @apply  bg-white px-8 py-3 text-[#3F3D56]
+  }
+  .btn_white_green  { 
+    @apply  bg-white px-8 py-3 text-green-600 hover:bg-[#3F3D56] hover:text-white
   }
 
   /* fonts */
